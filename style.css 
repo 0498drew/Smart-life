@@ -1,0 +1,232 @@
+/* General Styles */
+* {
+      margin: 0;
+        padding: 0;
+          box-sizing: border-box;
+}
+
+body {
+      font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+          color: #333;
+            line-height: 1.6;
+}
+
+header {
+      text-align: center;
+        padding: 20px;
+          background-color: #4CAF50;
+            color: white;
+}
+
+main {
+      padding: 20px;
+}
+
+footer {
+      text-align: center;
+        padding: 10px;
+          background-color: #4CAF50;
+            color: white;
+              position: fixed;
+                bottom: 0;
+                  width: 100%;
+}
+
+/* Front Page Gallery */
+.gallery {
+      display: flex;
+        justify-content: space-around;
+          flex-wrap: wrap;
+            margin-top: 20px;
+}
+
+.gallery .item {
+      text-align: center;
+        margin: 10px;
+          width: 30%;
+}
+
+.gallery img {
+      width: 100%;
+        height: auto;
+          border-radius: 10px;
+}
+
+.gallery p {
+      margin-top: 10px;
+        font-size: 14px;
+}
+
+/* Register Button */
+.register-button {
+      text-align: center;
+        margin: 20px 0;
+}
+
+.register-button a {
+      background-color: #4CAF50;
+        color: white;
+          padding: 10px 20px;
+            text-decoration: none;
+              border-radius: 5px;
+                font-size: 16px;
+}
+
+.register-button a:hover {
+      background-color: #45a049;
+}
+
+/* Registration Form */
+form {
+      max-width: 400px;
+        margin: 0 auto;
+          background: #fff;
+            padding: 20px;
+              border-radius: 10px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+      display: block;
+        margin-bottom: 5px;
+          font-weight: bold;
+}
+
+form input,
+form select,
+form button {
+      width: 100%;
+        padding: 10px;
+          margin-bottom: 15px;
+            border: 1px solid #ccc;
+              border-radius: 5px;
+}
+
+form button {
+      background-color: #4CAF50;
+        color: white;
+          border: none;
+            cursor: pointer;
+}
+
+form button:hover {
+      background-color: #45a049;
+}
+
+/* Services Page */
+.services {
+      display: flex;
+        justify-content: space-around;
+          flex-wrap: wrap;
+}
+
+.service {
+      background-color: #fff;
+        padding: 20px;
+          margin: 10px;
+            border-radius: 10px;
+              box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                width: 30%;
+                  text-align: center;
+}
+
+.service h2 a {
+      color: #4CAF50;
+        text-decoration: none;
+}
+
+.service h2 a:hover {
+      text-decoration: underline;
+}
+
+/* Meal Plans and Exercise Routines */
+button {
+      background-color: #4CAF50;
+        color: white;
+          padding: 10px 20px;
+            border: none;
+              border-radius: 5px;
+                cursor: pointer;
+                  margin: 5px;
+}
+
+button:hover {
+      background-color: #45a049;
+}
+
+#planDisplay,
+#routineDisplay {
+      margin-top: 20px;
+        background: #fff;
+          padding: 20px;
+            border-radius: 10px;
+              box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+      width: 100%;
+        border-collapse: collapse;
+          margin-top: 10px;
+}
+
+table th,
+table td {
+      border: 1px solid #ddd;
+        padding: 8px;
+          text-align: left;
+}
+
+table th {
+      background-color: #4CAF50;
+        color: white;
+}
+
+/* One-on-One Coaching */
+.whatsapp-button {
+      display: inline-flex;
+        align-items: center;
+          justify-content: center;
+            background-color: #25D366;
+              color: white;
+                text-decoration: none;
+                  padding: 10px 20px;
+                    border-radius: 5px;
+                      font-size: 16px;
+                        margin-top: 20px;
+}
+
+.whatsapp-button img {
+      width: 24px;
+        height: 24px;
+          margin-right: 10px;
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
